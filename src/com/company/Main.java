@@ -9,6 +9,7 @@ import com.company.animals.Duck;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 public class Main {
 
@@ -67,6 +68,8 @@ public class Main {
         System.out.println(dogsHomeless.size());
         for(Dog dogItem : dogsHomeless){
             System.out.println(dogItem);
+            dogItem.setName(String.valueOf((new Random()).nextLong()));
+            System.out.println(dogItem.getName());
         }
 
         List<Dog> dogsLinkedList = new LinkedList<>();
@@ -83,7 +86,7 @@ public class Main {
         }
 
         for(int i = 0; i < 100; i++){
-            SwitchExample.run();
+          //  SwitchExample.run();
         }
 
 
