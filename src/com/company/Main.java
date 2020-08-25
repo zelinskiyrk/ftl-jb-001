@@ -1,6 +1,7 @@
 package com.company;
 
 
+import com.company.L013.SwitchExample;
 import com.company.animals.Cat;
 import com.company.animals.Dog;
 import com.company.animals.Duck;
@@ -81,6 +82,9 @@ public class Main {
             indexLinkedList++;
         }
 
+        for(int i = 0; i < 100; i++){
+            SwitchExample.run();
+        }
     }
 }
 
