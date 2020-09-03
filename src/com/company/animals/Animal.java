@@ -1,6 +1,9 @@
 package com.company.animals;
 
 public abstract class Animal {
+    public static class WeightException extends RuntimeException{
+    }
+
     public static class AnimalWeight{
         public enum WeightType{
             KG, GR
@@ -9,7 +12,8 @@ public abstract class Animal {
         private Integer value;
         private WeightType weightType;
 
-        public AnimalWeight(Integer value, WeightType weightType) {
+        public AnimalWeight(Integer value, WeightType weightType) throws WeightException {
+            if(value < 0 ) throw new WeightException();
             this.value = value;
             this.weightType = weightType;
         }
@@ -27,6 +31,7 @@ public abstract class Animal {
         }
 
         public void setValue(Integer value) {
+            if(value < 0) throw new WeightException();
             this.value = value;
         }
 
