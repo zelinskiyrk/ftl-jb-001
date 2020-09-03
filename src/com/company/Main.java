@@ -2,6 +2,7 @@ package com.company;
 
 
 import com.company.L013.SwitchExample;
+import com.company.L019.StringExample;
 import com.company.animals.Cat;
 import com.company.animals.Dog;
 import com.company.animals.Duck;
@@ -96,6 +97,8 @@ public class Main {
         if(dog.getMoveType() == MoveType.WALK){
             System.out.println("Может ходить");
         }
+
+        StringExample.run();
     }
 }
 
