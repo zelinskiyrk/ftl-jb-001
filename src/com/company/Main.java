@@ -11,6 +11,7 @@ import com.company.animals.*;
 import com.company.tasks.task001.Task001;
 import com.company.tasks.task002.Task002;
 import com.company.tasks.task003.Task003;
+import com.company.tasks.task004.Task004;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -135,6 +136,7 @@ public class Main {
         Task001.run();
         Task002.run();
         Task003.run();
+        Task004.run();
     }
 }
 
