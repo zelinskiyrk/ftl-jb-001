@@ -136,6 +136,11 @@ public class Main {
         // Практические задания
       
         Task001.run();
+        Task002.run();
+        Task003.run();
+        Task004.run();
+        Task005.run();
+        Task006.run();
     }
 }
 
