@@ -8,6 +8,7 @@ import com.company.L026.FileExample;
 import com.company.L027.ThreadExample;
 import com.company.L028.House;
 import com.company.animals.*;
+import com.company.tasks.task001.Task001;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -112,7 +113,7 @@ public class Main {
 
         FileExample.run();
 
-        ThreadExample.run();
+        //ThreadExample.run();
 
         House house = new House.Builder()
                 .optHasSwimmingPool(true)
@@ -126,6 +127,8 @@ public class Main {
                 .optHasSwimmingPool(true)
                 .build();
         System.out.println(houseFull.toString());
+
+        Task001.run();
     }
 }
 
