@@ -9,6 +9,7 @@ import com.company.L027.ThreadExample;
 import com.company.L028.House;
 import com.company.animals.*;
 import com.company.tasks.task001.Task001;
+import com.company.tasks.task002.Task002;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -129,6 +130,7 @@ public class Main {
         System.out.println(houseFull.toString());
 
         Task001.run();
+        Task002.run();
     }
 }
 
