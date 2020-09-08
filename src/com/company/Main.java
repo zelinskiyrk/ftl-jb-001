@@ -18,6 +18,7 @@ import com.company.tasks.task007.Task007;
 import com.company.tasks.task008.Task008;
 import com.company.tasks.task009.Task009;
 import com.company.tasks.task010.Task010;
+import com.company.tasks.task011.Task011;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -139,16 +140,17 @@ public class Main {
 
         // Практические задания
       
-        Task001.run();
-        Task002.run();
-        Task003.run();
-        Task004.run();
-        Task005.run();
-        Task006.run();
-        Task007.run();
-        Task008.run();
-        Task009.run();
-        Task010.run();
+//        Task001.run();
+//        Task002.run();
+//        Task003.run();
+//        Task004.run();
+//        Task005.run();
+//        Task006.run();
+//        Task007.run();
+//        Task008.run();
+//        Task009.run();
+//        Task010.run();
+        Task011.run();
     }
 }
 
