@@ -24,6 +24,7 @@ import com.company.tasks.task013.Task013;
 import com.company.tasks.task014.Task014;
 import com.company.tasks.task015.Task015;
 import com.company.tasks.task016.Task016;
+import com.company.tasks.task017.Task017;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -160,7 +161,8 @@ public class Main {
 //        Task013.run();
 //        Task014.run();
 //        Task015.run();
-        Task016.run();
+//        Task016.run();
+        Task017.run();
     }
 }
 
