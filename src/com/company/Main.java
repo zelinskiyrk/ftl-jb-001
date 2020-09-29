@@ -40,6 +40,7 @@ import com.company.tasks.task029.Task029;
 import com.company.tasks.task030.Task030;
 import com.company.tasks.task031.Task031;
 import com.company.tasks.task032.Task032;
+import com.company.tasks.task033.Task033;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -192,7 +193,11 @@ public class Main {
 //        Task029.run();
 //        Task030.run();
 //        Task031.run();
-        Task032.run();
+//        Task032.run();
+//      В задании 33 необходимо передать аргументы (путь к файлу и дату) в метод main
+        String filePath = args[0];
+        String date = args[1];
+        Task033.run(filePath, date);
         
     }
 }
